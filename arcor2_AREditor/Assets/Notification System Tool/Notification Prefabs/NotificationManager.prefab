@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4283205318191112264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4283205318191112262}
+  - component: {fileID: 4283205318191112265}
+  - component: {fileID: 4283205318191112260}
+  - component: {fileID: 4283205318191112263}
+  m_Layer: 0
+  m_Name: NotificationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4283205318191112262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283205318191112264}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4283205318191112265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283205318191112264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf23528586a948eeb9fff7a25d62bdfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notificationErrorPrefab: {fileID: 6317600000440997315, guid: 3d19a7543073ab3428d080cf30808196, type: 3}
+  notificationWarningPrefab: {fileID: 2866973330320162117, guid: 44a324fb54315664893db1f96e24376d, type: 3}
+  notificationSuccessPrefab: {fileID: 4197392232233834408, guid: 9c2ea14e37c198841b94a7e48c88655a, type: 3}
+  parentCanvas: {fileID: 0}
+--- !u!114 &4283205318191112260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283205318191112264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687dd9107cb7b114788ffbd514d7bace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notificationPrefab: {fileID: 0}
+  parentCanvas: {fileID: 0}
+  windowTitleText: {fileID: 0}
+  windowsBodyText: {fileID: 0}
+--- !u!114 &4283205318191112263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4283205318191112264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709c9fe583fc05a439f6dbec4a103c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notificationErrorPrefab: {fileID: 0}
+  parentCanvas: {fileID: 0}
+  iconPrefab: {fileID: 0}
+  messageDetailPrefab: {fileID: 0}
